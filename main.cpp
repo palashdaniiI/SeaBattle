@@ -1,7 +1,7 @@
 #include "ship.h"
 
 int main() {		
-	Field MainField; //initialization of the new field
+	Field MainField;
 	MainField.PrintField();	//show corrent field
 	std::cout << "           \n";
 	Ship fleet[10] = { 1, 1, 1, 1, 2, 2, 2, 3, 3, 4 }; // 0..3 = "1", 4..6 = "2", 7..8 = "3, 9 = "4" 
